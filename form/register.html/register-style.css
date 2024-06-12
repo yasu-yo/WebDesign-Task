@@ -1,0 +1,35 @@
+span{
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    border-radius:  25% 45%;
+}
+table, th, td{
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+
+table{
+    background-color: rgb(212, 205, 205);
+    margin-bottom: 20px;
+    
+}
+
+li, td{
+    font-size: 15px;
+    color:black;
+}
+
+tr th{
+    background-color: rgb(143, 138, 138);
+    color:whitesmoke;
+}
+th{
+    text-align:left;
+    vertical-align:top;
+
+}
+th, td{
+    padding: 25px 20px;
+
+}
