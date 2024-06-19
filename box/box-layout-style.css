@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: HGPｺﾞｼｯｸE;
+    font-size: 2rem;
+    width: 90%;
+    margin:20px auto;
+}
+
+p {
+    margin:10px auto 20px;
+    font-size: 95%;
+    font-weight:bold;
+    width: 90%;
+}
+
+a {
+    width: 30%;
+    border-radius: 80px 80px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: rgb(60, 56, 191);
+    display: block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: HGP創英角ﾎﾟｯﾌﾟ体;
+    color: rgb(245, 246, 241);
+}
+
+
+.box {
+    display: flex;
+    align-items: stretch;
+    height: 630px;
+    justify-content: center;
+    
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    height: 630px;
+    align-items: stretch;
+}
+
+.item {
+    margin: 1%;
+    background-color:rgb(216, 85, 85);
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
