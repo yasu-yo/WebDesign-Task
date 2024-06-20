@@ -33,15 +33,15 @@
 
                 <tr>
                     <th>住所:</th>
-                    <td>〒<input type="text" name="user_adress" size="8" value="020-0021"><br>
-                        <input type="text" name="user_adress" value="岩手県盛岡市中央通３丁目"><br>
-                        <input type="text" name="user_adress" placeholder="番地"><br>
-                        <input type="text" name="user_adress" size="30" placeholder="建物名"><br>
+                    <td>〒<input type="text" name="postal_adress" size="8" value="020-0021"readonly><br>
+                        <input type="text" name="address-lrvel1_2" value="岩手県盛岡市中央通３丁目"readonly><br>
+                        <input type="text" name="street_address" placeholder="番地"><br>
+                        <input type="text" name="address-line1" size="30" placeholder="建物名"><br>
                     </td>
                 </tr>
                 <tr>
                     <th>携帯番号<span>必須</span>(ハイフンなし)</th>
-                    <td><input type="tel" name="user_adress" required><br></td>
+                    <td><input type="tel" name="telephone" required><br></td>
                 </tr>
                 <tr>
                     <th>学科・学年<span>必須</span></th>
@@ -61,7 +61,7 @@
                 </tr>
                 <tr>
                     <th>お得な情報・クーポン<span>必須</span></th>
-                    <td><label></label><input type="radio" name="coupon" value="0">受け取る</label>
+                    <td><label></label><input type="radio" name="coupon" value="0" required>受け取る</label>
                         <label></label><input type="radio" name="coupon" value="1">受け取らない</label><br>
                     </td>
                 </tr>
